@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+body{
+    background-color: #000000;
+}
+.h12 {
+    color: #000000;
+    text-align: center;
+    background-color: rgb(251, 251, 251);
+    padding: 50px;
+    font-size: 50px;
+}
+.product2 {
+    
+    display: table-cell;
+    text-align: center;
+    padding: 50px; 
+    font-size:  25px ;
+     
+     
+    
+    
+    
+   
+}
+.product2 img {
+    width: 400px;
+    height: 450px;
+    display: grid;
+    box-shadow:  2px 5px 20px 7px rgba(244, 243, 243, 0.168);
+    padding: 2px;
+    
+    
+    
+    
+}
+.product2 button{
+    padding: 5px 30px;
+    border: none; 
+    background-color:rgb(255, 254, 254);
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    
+    
+}
+#a2:link{
+    text-decoration: none;
+}
+#a2{
+    color: green;
+    
+}
+#a22{
+  color: rgb(0, 0, 0);
+}
+.footer2 {
+    background-color: #fbfbfb;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 50px;
+  }
+  .blouse-2{
+    width: 1090px;
+    height: 150px;
+    border-collapse: collapse;
+    margin: 20px 0 0  200px;
+    color: #000;
+   
+  }
+  .blouse-2 th, .blouse-2 td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    font-size: 40px;
+    color: #000;
+    
+  }
+  .blouse-2 th {
+    background-color: rgb(249, 244, 244);
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  
+  .nav2{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    place-items: center;
+  }
+  .nav2 ul{
+    list-style-type: none;
+  
+  }
+  .nav2 ul a{
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+  
+  }
+  .nav2 ul a :hover{
+    
+    color: #000000;
+}
+.p2{
+  padding: 15px;
+  color: rgb(255, 251, 251);
+}
+.p22{
+  color: #000;
+
+}
+#i2{
+  font-size: 40px;
+  color: #000000;
+  padding: 20px 30px;
+}
+#switcher2{
+    font-size: 40px;
+    color: black;
+    
+  }
+
+
+
+
