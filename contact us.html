@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/project.css">
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+    </style>
+</head>
+<body class="body8">
+
+<header class="header8">
+    <h1>Fakra Store</h1>
+    <nav class="nav8">
+        <ul>
+            <li><a href="file:///D:/htmlproject/home%20page.html"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
+            
+        </ul>
+    </nav>
+    <label for="darkModeToggle">Dark Mode:</label>
+    <input type="checkbox" id="darkModeToggle">
+
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+ 
+</header>
+
+<section class="contact8">
+    <div class="container8">
+        <h2>Contact Us</h2>
+        <div class="contact-wrapper8">
+            <div class="contact-form8">
+                <h3>Send us a Message</h3>
+                <form>
+                    <div class="form-group8">
+                        <input class="input8" type="text" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group8">
+                        <input class="input8" type="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group8">
+                        <textarea class="textarea8" name="message" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button class="button8" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="contact-info8">
+                <h3>Contact Information</h3>
+                <p><i class="fa-solid fa-phone"></i>7105</p>
+                <p><i class="fa-solid fa-location-dot"></i>NEW Cairo, Street 90</p>
+                <p><i class="fa-solid fa-envelope"></i>fakra@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="box8">
+    <h2>Company Information</h2>
+    <table class="company-table8">
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Phone</th>
+      </tr>
+      <tr>
+        <td>Fakra</td>
+        <td>NEW Cairo<br>, Street 90<br>,Plot 7</td>
+        <td>7105</td>
+      </tr>
+      <tr>
+        <td>Fakra</td>
+        <td>6th October<br>,Plot8</td>
+        <td>5333</td>
+      </tr>
+    </table>
+  </div>
+
+<footer class="footer8">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-google"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <p>&copy; 2024 Fakra all right reserved</p>
+   
+</footer>
+
+<script src="js/contact us.js"></script>
+
+<script>
+    // دالة لتغيير لون خلفية الصفحة عشوائيًا
+    function changeBackgroundColor() {
+        // مصفوفة من الألوان الممكنة
+        const colors = ['#ff6347', '#ffa500', '#8a2be2', '#00bfff', '#32cd32', '#800080', '#f8f9naf8', '#000','#333'];
+
+        // اختيار لون عشوائي من المصفوفة
+        const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+        // تعيين لون الخلفية للصفحة
+        document.body.style.backgroundColor = randomColor;
+    }
+</script>
+
+</body>
+</html>

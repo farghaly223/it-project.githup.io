@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>T-shirt Store</title>
+  <link href="css/project.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+ 
+<body>
+  <style>
+    *{
+      margin:0;
+    }
+    :root
+   {
+    --primary-color:#d4d1ce;
+    --secondary-color:#b09d7dff;
+  }
+  
+  .dark-theme99
+  {
+    --primary-color:#a19ea3;
+    --secondary-color:#806b7cff;
+  }
+  </style>
+
+  <section id="header99">
+    <div>
+      <ul id= "navbar99">
+        <li> <a href="file:///D:/htmlproject/home%20page.html">Home</a></li>
+         <li> <a href="file:///D:/htmlproject/sign%20in.html">sign in</a></li>
+        <li> <a href="file:///D:/htmlproject/sign%20up.html">sign up</a></li>
+         <li> <a href="file:///D:/htmlproject/about%20us.html">Ahout us</a></li>
+         <li> <a href="file:///D:/htmlproject/contact%20us.html">Contact</a></li>
+      </ul>
+    </div>
+    <img src="img/moon.jpg"id="icon99">
+  </section>
+  <div id="container99">
+    <h1 id="h199"> Men's Pants </h1>
+    <div id="products99">
+      <div class="row99">
+        <div class="column99">
+          <section id="product1" class="section-product99">
+            <img src="img/11.jpg" id="img99" >
+
+            <p>jeans pants<br>Price: $34<br>Item code: #215684</p>
+            <a href="file:///D:/htmlproject/order.html"><input type="button" value="order now" class="nm"></a>
+          </section>
+        </div>
+        <div class="column99">
+          <section id="product2" class="section-product99">
+            <img src="img/12.jpg" id="img99">
+            <p>brown pants<br>Price: $34<br>Item code: #215685</p>
+            <a href="file:///D:/htmlproject/order.html"><input type="button" value="order now" class="nm"></a>
+          </section>
+        </div>
+        <div class="column99">
+          <section id="product3" class="section-product99">
+            <img src="img/13.jpg" id="img99">
+            <p>black pants<br>Price: $34<br>Item code: #215686</p>
+            <a href="file:///D:/htmlproject/order.html"><input type="button" value="order now" class="nm"></a>
+          </section>
+        </div>
+      </div>
+      <div class="row99">
+        <div class="column99">
+          <section id="product4" class="section-product99">
+            <img src="img/14.jpg"id="img99">
+            <p>black pants<br>Price: $34<br>Item code: #215687</p>
+            <a href="file:///D:/htmlproject/order.html"><input type="button" value="order now" class="nm"></a>
+          </section>
+        </div>
+        <div class="column99">
+          <section id="product5" class="section-product99">
+            <img src="img/15.jpg" id="img99"> 
+            <p> beige pants<br>Price: $34<br>Item code: #215688</p>
+             <a href="file:///D:/htmlproject/order.html"><input type="button" value="order now" class="nm"></a>
+          </section>
+        </div>
+        <div class="column99">
+          <section id="product6" class="section-product99">
+            <img src="img/16.jpg" id="img99">
+            <p>jeans pants<br>Price: $34<br>Item code: #215689</p>
+             <a href="file:///D:/htmlproject/order.html"><input type="button" value="order now" class="nm"></a>
+          </section>
+        </div>
+      </div>
+      <div class="row99">
+        <div class="column99">
+          <section id="product7" class="section-product99">
+            <img src="img/17.jpg" id="img99">
+            <p>gray pants<br>Price: $34<br>Item code: #215690</p>
+             <a href="file:///D:/htmlproject/order.html"><input type="button" value="order now" class="nm"></a>
+          </section>
+        </div>
+        <div class="column99">
+          <section id="product8" class="section-product99">
+            <img src="img/18.jpg" id="img99">
+            <p>jeans pants<br>Price: $34<br>Item code: #215691</p>
+             <a href="file:///D:/htmlproject/order.html"><input type="button" value="order now" class="nm"></a>
+          </section>
+        </div>
+        <div class="column99">
+          <section id="product9" class="section-product99">
+            <img src="img/12.jpg" id="img99">
+            <p>jeans pants<br>Price: $34<br>Item code: #215692</p>
+             <a href="file:///D:/htmlproject/order.html"><input type="button" value="order now" class="nm"></a>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer id="footer99">
+    <div class="footer-cont99">
+      <ul class="icons99">
+        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+         <li><a href=""><i class="fa-brands fa-twitter"></i></a</li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+       <li><a href=""><i class="fa-brands fa-google-play"></i></a></li>
+        </ul>
+        <p>@2024 Fakra all right reserved</p>
+      </div>
+  </footer>
+
+  <script>
+    var icon99 = document.getElementById("icon99");
+    icon99.onclick=function(){
+      document.body.classList.toggle("dark-theme99");
+      if(document.body.classList.contains("dark-theme99")){
+          icon99.src="img/sun.jpg";
+        }
+        else
+        {
+          icon99.src="img/moon.jpg";
+        }
+    }
+  </script>
+</body>
+
+</html>

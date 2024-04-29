@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>shopping store</title>
+    <link rel="stylesheet" href="css/project.css">
+
+</head>
+<body class="Day-mode-CR7">
+    <style>
+    *{
+        font-family: 'poppins',sans-serif;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    </style>
+    <div class="section-shopping">
+        <nav class="nav-CR7">
+            <div class="header-CR7">
+                <h1 class="h1-cr7"> section of bags </h1>
+            </div>
+            <div class="header-links-CR7">
+                <a href="file:///D:/htmlproject/home%20page.html">home</a>
+                <a href="file:///D:/htmlproject/blouse.html">blouse</a>
+                <a href="file:///D:/htmlproject/shirts.html">shirts</a>
+                <a href="file:///D:/htmlproject/women%20pants.html">pants</a>
+                
+                <a href="file:///D:/htmlproject/girls%20sneakrs.html">shoeses</a>
+                <button id="toggleMode"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </nav>              
+        <div class="products-CR7">
+            <div class="items1">
+                <img src="img/1-bag.jfif" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>499</span> <del>800</del></h3>
+                <span class="ppp "> -30% </span>
+                <span class="New "> New </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items2">
+                <img src="img/2-bag.jpg" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>499</span> <del>800</del></h3>
+                <span class="ppp "> -30% </span>
+                <span class="New "> New </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items3">
+                <img src="img/3-bag.jpg" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>599</span> <del>1000</del></h3>
+                <span class="ppp "> -30% </span>
+                <span class="New "> New </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items4">
+                <img src="img/4-bag.jpg" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>350</span> <del>700</del></h3>
+                <span class="ppp "> -30% </span>
+                <span class="New "> New </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items5">
+                <img src="img/5-bag.jpg" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>499</span> <del>800</del></h3>
+                <span class="offer "> -30% </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items6">
+                <img src="img/6-bag.jpg" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>799</span> <del>1000</del></h3>
+                <span class="offer "> -30% </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items7">
+                <img src="img/7-bag.jpg" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>499</span> <del>800</del></h3>
+                <span class="offer "> -30% </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items8">
+                <img src="img/8-bag.jpg" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>399</span> <del>600</del></h3>
+                <span class="offer "> -30% </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items9">
+                <img src="img/9-bag.jfif" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>499</span> <del>700</del></h3>
+                <span class="offer "> -30% </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items10">
+                <img src="img/10-bag.jfif" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>999</span> <del>1500</del></h3>
+                <span class="offer "> -30% </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items11">
+                <img src="img/11-bag.png" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>399</span> <del>700</del></h3>
+                <span class="offer "> -30% </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+            <div class="items12">
+                <img src="img/12-bag.jfif" alt="">
+                <h4>High quality </h4>
+                <h2>one of the wonderful bags </h2>
+                <h3><span>499</span> <del>700</del></h3>
+                <span class="offer "> -30% </span>
+                <i class="fa-regular fa-heart "></i>
+                <button onclick="showConfirmation()"><i class="fa-solid fa-cart-shopping"></i></button>   
+            </div>
+        </div>
+    </div>
+    <footer class="FOOTER-CR7">
+    <div class="footer-content-CR7">
+            <div class="social-CR7">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+                <a href=""><i class="fa-brands fa-google"></i></a>
+            </div>
+            <div class="footernav-CR7">
+                <ul>
+                    <li><a href="file:///D:/htmlproject/home%20page.html">Home</a></li>
+                    <li><a href="file:///D:/htmlproject/about%20us.html">About</a></li>
+                    <li><a href="file:///D:/htmlproject/review.html">review</a></li>
+                    <li><a href="file:///D:/htmlproject/contact%20us.html">contact us</a></li>
+
+                </ul>
+            </div>
+
+            <p class="copyright">&copy; 2024 fakra All Right Reserved </p>
+
+    </div>
+
+    </footer>
+
+    <script>
+        function showConfirmation() {
+            if (confirm(" Are you sure you want to purchase ? ")) {
+                window.location.href = "file:///D:/htmlproject/order.html"; 
+            } else {
+                alert("The operation has been cancelled. Thank you!");
+            }
+        }
+        document.getElementById("toggleMode").addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode-CR7");
+        });
+    </script>
+</body>
+</html>
