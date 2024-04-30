@@ -12,3 +12,6 @@ function
 
             } 
         } 
+function alertbox() {
+            alert("Hello\nHow are you?");
+          }
