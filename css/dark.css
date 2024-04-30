@@ -6,7 +6,7 @@
   
 }
 .body2{
-  background-color: #222222;
+  background-color: #000;
 }
 .h12 {
   color: #000000;
@@ -41,7 +41,7 @@
   transition: .5s ease;
   width: 100px;
   height: 30px;
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(255, 254, 254);
   color:rgb(0, 0, 0);
   
   
@@ -102,7 +102,7 @@
 }
 .footer2 {
   background-color: #b1b1b1;
-  color: #131313;
+  color: #1d1d1d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +114,7 @@
 
 
 .nav2{
-  background-color: rgb(255, 254, 254);
+  background-color: rgb(255, 255, 255);
   display: grid;
   place-items: center;
 }
@@ -152,3 +152,4 @@ color: rgb(0, 0, 0);
 
 
 }
+
