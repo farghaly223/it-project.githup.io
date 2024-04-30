@@ -2,9 +2,9 @@ var icon = document.getElementById("icon");
 icon.onclick = function(){
     document.body.classList.toggle("dark-theme");
     if(document.body.classList.contains("dark-theme")){
-        icon.src = "sun.jpg";
+        icon.src = "img/sun.jpg";
     }else{
-            icon.src = "moon.jpg";
+            icon.src = "img/moon.jpg";
         }
     }
 var clickme = document.getElementById("cm");
