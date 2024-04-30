@@ -1204,6 +1204,9 @@ font-weight: 600;
     padding-right: 10px;
     
     }
+ .h29{
+        color: var(--secondary-color);
+    }
 
 
  
@@ -1322,6 +1325,22 @@ font-weight: 600;
         padding-right: 10px;
         
         }
+        #table-13{
+        padding-left: 450px;
+        text-align: center;
+        color: var(--secondary-color);
+        }
+        td{
+        border: 1px solid var(--secondary-color);
+        box-shadow: .3rem .5rem 1rem var(--third-color);
+        width: 250px; 
+        }
+        th{
+        border: 1px solid var(--secondary-color); 
+        box-shadow: .3rem .5rem 1rem var(--third-color);  
+        width: 250px;
+        }    
+
 
 
 
@@ -1974,6 +1993,9 @@ sign up */
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+}
+.h999{
+    color: white;
 }
 #b1{
     
