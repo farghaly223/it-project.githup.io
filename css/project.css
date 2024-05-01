@@ -397,6 +397,11 @@ h4{
 
 
 
+
+
+
+
+
 .body1{
     margin: 0;
     padding: 0;
@@ -587,6 +592,11 @@ h4{
  .copyright{
     color: white;
  }
+ 
+
+
+
+
 
 
 
@@ -1035,7 +1045,7 @@ h1{
     color:rgb(0, 191, 255);
     margin-bottom: 20px ;
 }
-footer{
+.footer0{
     background-color: #111;
 }
 .footercontainer-0{
